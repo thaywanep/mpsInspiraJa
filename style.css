@@ -1,0 +1,117 @@
+html, body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10; /* todos os elementos ficar abaixo do menu*/
+    top: 0;
+    left: 0;
+}
+
+#logo {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none; /* tirando a bolinha da lista*/
+    margin-top: 0px;
+}
+
+li {
+    float: left; /*coloca os elementos da lista um do lado do outro*/
+    padding: 20px 10px 20px 10px;
+}
+
+li:hover { /*passa o mouse em cima muda a cor de fundo*/
+    background-color: #01AAEA;
+}
+
+#imagem_fundo {
+    background: url("img/fundo.jpg");
+    height: 100vh; /* A imagem ocupará 100% da altura da janela de visualização */
+    background-size: cover; /* ajustar o tamanho da imagem */
+    background-position: center; /* posicionar a imagem */
+    background-repeat: no-repeat; /* evitar repetição da imagem */
+    text-align: center;
+}
+
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 60px;
+}
+
+#subtitulo {
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+}
+
+.icone {
+    width: 51px;
+}
+
+section {
+    padding: 20px;
+    float: left; /*organiza leiaut*/
+}
+
+.destaque {
+    background-color: #f7f7f7;
+}
+
+.imgeco {
+    width: 90%;
+    height: 30%;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+
+.dois {
+    width: 40%;
+}
+
+.quatro {
+    width: 15%;
+}
+
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+footer {
+    background-color: #01AAEA;
+    float: left; /* esquema de layout*/
+    color: white;
+    padding-left: 5%;
+}

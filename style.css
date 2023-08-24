@@ -109,9 +109,10 @@ section {
     text-align: center;
 }
 
-footer {
+#footer {
     background-color: #01AAEA;
     float: left; /* esquema de layout*/
     color: white;
     padding-left: 5%;
+    width: 95%;
 }
